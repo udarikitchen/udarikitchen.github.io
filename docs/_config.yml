@@ -55,3 +55,5 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 
 atom_feed:
   hide: true
+plugins:
+  - jekyll-include-cache
