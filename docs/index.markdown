@@ -5,8 +5,6 @@
 title: Udari's Kitchen
 layout: home
 author_profile: true
-classes:
-  - wide
 header:
   image: /assets/images/banner.png
 ---

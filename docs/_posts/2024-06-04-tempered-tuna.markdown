@@ -2,7 +2,10 @@
 layout: single
 title:  "Tuna Tempered  Recipe"
 date:   2024-06-04 11:55:12 +1000
-categories: Tuna Tempered
+categories: Recipe
+tags:
+ - Tempered
+ - Tuna
 ---
 > Welcome to a flavorful journey with our Tuna Tempered recipe, a delicious and aromatic dish that hails from the heart of Sri Lankan cuisine. 
 
