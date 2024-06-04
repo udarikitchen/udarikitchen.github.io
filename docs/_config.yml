@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Udari's Kitchen
+subtitle: "Discover the Essence of Sri Lanka: Flavors, Spices, and Tradition"
 email: mahishizu@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
   Dive into the world of culinary arts with Savory Delights, where every recipe is crafted to bring joy to your kitchen. Whether you're a seasoned chef or a home cook, our blog offers a wide array of recipes, cooking tips, and kitchen hacks to inspire and elevate your cooking game.
@@ -32,7 +33,7 @@ github_username:  jekyll
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 # theme: minimal-mistakes-jekyll
-
+minimal_mistakes_skin: "air"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -57,3 +58,25 @@ atom_feed:
   hide: true
 plugins:
   - jekyll-include-cache
+
+name: &name "Mahishi Udari"
+description: &description "Embark on a culinary adventure through the vibrant flavors and rich heritage of Sri Lankan cooking with Spice of Ceylon. Our blog is your ultimate destination for discovering the diverse and exotic dishes that make Sri Lankan cuisine truly unique."
+author:
+  name: *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar: "/assets/images/mahishi-udari.png"
+  bio: "From My Kitchen to Yours: Heartfelt Recipes for Home Cooking"
+  location: "Sydney, Australia"
+  links:
+    - label: "Udaris Kitchen"
+      icon: "fas fa-fw fa-link"
+      url: "https://udarikitchen.github.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/udarikitchen/udarikitchen.github.io"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
