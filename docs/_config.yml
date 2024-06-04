@@ -26,9 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   From mouth-watering appetizers to decadent desserts, discover step-by-step guides that make cooking approachable and fun. Explore international cuisines, learn the secrets of perfect baking, and find healthy meal ideas for every occasion. With stunning photos and detailed instructions, our goal is to make cooking a delightful and rewarding experience for everyone.
   Join our community of food lovers, share your culinary creations, and let's embark on this delicious journey together. Happy cooking!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://udarikitchen.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  udarikitchen
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.1"
@@ -156,7 +155,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Sydney # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
