@@ -55,6 +55,13 @@ minimal_mistakes_skin: "air"
 
 atom_feed:
   hide: true
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+google:
+  search_engine_id: 758eb3977da6545cd # YOUR_SEARCH_ENGINE_ID
+  instant_search: true # false (default), true
+# SEO Related
+google_site_verification: lcgjTfOGvsYX-wD8rvi99xi48hYY_-xCf9SnE77mBVU
 plugins:
   - jekyll-include-cache
 
@@ -125,7 +132,6 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
